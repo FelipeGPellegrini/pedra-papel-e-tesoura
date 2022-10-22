@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top:10px ;
+
+}
+
+#areaDoJogo {
+    display: block;
+    width: 400px;
+    height: 500px;
+    margin:50px auto 50px auto;
+    
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#escolha {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#escolha > img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#enviar {
+    display: block;
+    margin: 70px auto;
+    padding: 10px;
+    border: 0;
+}
+
+#enviar:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+#resultado {
+    text-align: center;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#credito{
+    text-align: center;
+    margin-top: 50px;
+
+}
